@@ -10,7 +10,7 @@
 .big-container{
   height: 100vh;
 }
-.container{
+.container-1{
   height: 45%;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-bottom-left-radius: 10%;
@@ -38,7 +38,7 @@
 .circle :last-child{
   color:hsla(241, 100%, 89%,0.6);
 }
-.container h1,
+.container-1 h1,
 .degree{
   color: white;
 }
@@ -47,19 +47,19 @@
   font-size: 40px;
 }
 
-.container p{
+.container-1 p{
   width: 80%;
   font-size: 18px;
   text-align: center;
 }
-.container2{
+.container-2{
   height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.container2 h2{
+.container-2 h2{
   align-self: flex-start;
   padding-left: 40px;
   font-weight: 700;
@@ -153,7 +153,7 @@ span{
     margin: calc(40vh / 2) auto;
     box-shadow: 8px 8px 20px 10px hsl(221, 100%, 96%);
 }
-.container{
+.container-1{
   width: 50%;
   height: 100%;
   border-radius: 50px;
@@ -162,7 +162,7 @@ span{
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
-.container2{
+.container-2{
   width: 50%;
   height: 100%;
 }
@@ -170,10 +170,10 @@ span{
   width: 150px;
   height: 150px;
 }
-.container h1{
+.container-1 h1{
   font-size: xx-large;
 }
-.container p{
+.container-1 p{
   width: 65%;
 }
 }
