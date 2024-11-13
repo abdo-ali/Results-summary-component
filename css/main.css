@@ -3,10 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-size: 18px; */
+  font-size: 18px;
+  font-weight: 500;
+  /* position: relative; */
+}
+.big-container{
+  height: 100vh;
 }
 .container{
-  height: 400px;
+  height: 45%;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
@@ -17,8 +22,8 @@
   justify-content: space-evenly;
 }
 .circle{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -39,7 +44,7 @@
 }
 .degree{
   font-weight: 800;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .container p{
@@ -48,7 +53,7 @@
   text-align: center;
 }
 .container2{
-  height: 515px;
+  height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -57,11 +62,12 @@
 .container2 h2{
   align-self: flex-start;
   padding-left: 40px;
+  font-weight: 700;
 }
 .item{
   width: 80%;
   height: 50px;
-  padding: 0 20px;
+  padding: 0 5%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -115,7 +121,7 @@ span{
 .btn{
   display: flex;
   justify-content: center;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 20px;
   background-color: hsl(224, 30%, 27%);
   color: white;
@@ -127,4 +133,47 @@ span{
 }
 .btn:hover{
   background-color: hsl(241, 81%, 54%);
+  cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+  .big-container{
+    width: 50%;
+    height: 60vh;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin: calc(40vh / 2) auto;
+    box-shadow: 8px 8px 20px 10px hsl(221, 100%, 96%);
+}
+.container{
+  width: 50%;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.container2{
+  width: 50%;
+  height: 100%;
+}
+.circle{
+  width: 150px;
+  height: 150px;
+}
+.container h1{
+  font-size: xx-large;
+}
+.container p{
+  width: 65%;
+}
 }
